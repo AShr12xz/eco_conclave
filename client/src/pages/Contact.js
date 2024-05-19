@@ -43,7 +43,7 @@ function Contact() {
                   EMAIL
                 </h2>
                 <a
-                  href="mailto:anuragtripathi2901@gmail.com"
+                  href="mailto:secyfebs.sg@iitbbs.ac.in"
                   className="text-green-500 leading-relaxed"
                 >
                   secyfebs.sg@iitbbs.ac.in
