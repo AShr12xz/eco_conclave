@@ -11,12 +11,12 @@ function Contact() {
       <ToastContainer limit={1} />
       <Navbar />
       <div className="flex flex-col text-center w-full">
-        <h1 className="text-4xl sm:text-3xl font-bold title-font text-orange-400 md:text-5xl">
+        <h1 className="text-4xl mt-3 sm:text-3xl font-bold title-font text-orange-400 md:text-5xl">
           Get in Touch !!
         </h1>
       </div>
       <section className="body-font relative " id="contact">
-        <div className="container px-5 pt-3 pb-10 mx-auto h-full flex max-[1000px]:flex-col sm:flex-nowrap flex-wrap">
+        <div className="container px-5 mt-4 pt-3 pb-10 mx-auto h-full flex max-[1000px]:flex-col sm:flex-nowrap flex-wrap">
           <div className="lg:w-1/2 md:w-1/2 bg-gray-600 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
             <iframe
               width="100%"
