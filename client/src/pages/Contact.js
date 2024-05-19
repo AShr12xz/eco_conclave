@@ -2,10 +2,13 @@ import React from 'react';
 import ContactForm from '../components/ContactForm';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
+import { ToastContainer} from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 function Contact() {
   return (
     <>
+      <ToastContainer />
       <Navbar />
       <div className="flex flex-col text-center w-full">
         <h1 className="text-4xl sm:text-3xl font-bold title-font text-orange-400 md:text-5xl">
