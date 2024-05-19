@@ -8,7 +8,7 @@ import "react-toastify/dist/ReactToastify.css";
 function Contact() {
   return (
     <>
-      <ToastContainer />
+      <ToastContainer limit={1} />
       <Navbar />
       <div className="flex flex-col text-center w-full">
         <h1 className="text-4xl sm:text-3xl font-bold title-font text-orange-400 md:text-5xl">
@@ -53,6 +53,7 @@ function Contact() {
           </div>
           <ContactForm />
         </div>
+        <div className=" w-full h-16 bottom-0"></div>
       </section>
       <div className="fixed w-full bottom-0">
         <Footer />

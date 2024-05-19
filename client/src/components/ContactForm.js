@@ -4,17 +4,21 @@ import { useEffect } from "react";
 import { toast } from "react-toastify";
 
 export default function ContactForm() {
-  const [state, handleSubmit] = useForm("xpzvnvdb");
+  // const [state, handleSubmit] = useForm("xpzvnvdb");
+  const [state, handleSubmit] = useForm("mleqvqzj");
     useEffect(()=>{
         if(state.succeeded) {
         toast.success("Message sent successfully");
-        state.succeeded=false;
+        toast.clearWaitingQueue();
+        let form=document.getElementById("form");
+        form.reset();
         }
     },[state]);
 
   return (
     <div>
       <form
+        id="form"
         className="max-w-lg max-[1000px]:mt-4 mx-auto p-8 bg-white dark:bg-gray-800 shadow-lg rounded-lg"
         onSubmit={handleSubmit}
       >
