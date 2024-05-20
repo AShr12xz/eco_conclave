@@ -10,7 +10,6 @@ function Contact() {
   return (
     <div className=' min-h-full relative'>
       <ToastContainer limit={1} />
-      <Navbar />
       <div className="flex flex-col text-center w-full">
         <h1 className="text-4xl mt-3 sm:text-3xl font-bold title-font text-orange-400 md:text-5xl">
           Get in Touch !!
@@ -59,7 +58,6 @@ function Contact() {
         <div className=" w-full h-16 bottom-0"></div>
       </section>
 
-      <Footer />
     </div>
   );
 }
