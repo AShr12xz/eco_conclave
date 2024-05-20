@@ -2,6 +2,7 @@
 import { useForm, ValidationError } from "@formspree/react";
 import { useEffect } from "react";
 import { toast } from "react-toastify";
+import './../styles/contact.css'
 
 export default function ContactForm() {
   // const [state, handleSubmit] = useForm("xpzvnvdb");
@@ -19,7 +20,7 @@ export default function ContactForm() {
     <div>
       <form
         id="form"
-        className="max-w-lg max-[1000px]:mt-4 mx-auto p-8 bg-white dark:bg-gray-800 shadow-lg rounded-lg"
+        className="max-w-lg custom2 max-[1000px]:mt-4 lg:ml-6 mx-auto p-8 bg-white dark:bg-gray-800 shadow-lg rounded-lg"
         onSubmit={handleSubmit}
       >
         <p className="leading-relaxed mb-6 text-gray-600 dark:text-gray-400">

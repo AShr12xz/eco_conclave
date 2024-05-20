@@ -2,12 +2,13 @@ import React from 'react';
 import ContactForm from '../components/ContactForm';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
-import { ToastContainer} from "react-toastify";
+import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import './../styles/contact.css'
 
 function Contact() {
   return (
-    <>
+    <div className=' min-h-full relative'>
       <ToastContainer limit={1} />
       <Navbar />
       <div className="flex flex-col text-center w-full">
@@ -16,8 +17,9 @@ function Contact() {
         </h1>
       </div>
       <section className="body-font relative " id="contact">
-        <div className="container px-5 mt-4 pt-3 pb-10 mx-auto h-full flex max-[1000px]:flex-col sm:flex-nowrap flex-wrap">
-          <div className="lg:w-1/2 md:w-1/2 bg-gray-600 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
+        <div className="container px-5 mt-6 pt-3 pb-10 mx-auto h-full flex max-[1000px]:flex-col sm:flex-nowrap flex-wrap">
+          <div className="lg:w-1/2 custom custom2 md:w-1/2 bg-gray-600 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
+          
             <iframe
               width="100%"
               height="100%"
@@ -28,6 +30,7 @@ function Contact() {
                 filter: "contrast(1.2)",
               }}
             ></iframe>
+            
             <div className="bg-white text-gray-800 relative flex flex-wrap py-6 rounded shadow-md">
               <div className="lg:w-1/2 px-6">
                 <h2 className="title-font font-semibold tracking-widest text-xs">
@@ -55,10 +58,9 @@ function Contact() {
         </div>
         <div className=" w-full h-16 bottom-0"></div>
       </section>
-      <div className="fixed w-full bottom-0">
-        <Footer />
-      </div>
-    </>
+
+      <Footer />
+    </div>
   );
 }
 

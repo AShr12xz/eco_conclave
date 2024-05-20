@@ -4,7 +4,7 @@ import { FaInstagram, FaLinkedin, FaTwitter } from 'react-icons/fa'
 
 function Footer() {
     return (
-      <footer className="flex flex-col text-white-600 body-font border-t-2 border-gray-800 mt-4 ">
+      <footer className="flex flex-col text-white-600 body-font border-t-2 border-gray-800 ">
         <div className="container px-5 sm:py-4 py-1 mx-auto flex items-center justify-center lg:flex-row flex-col">
           <a className="flex title-font font-medium text-gray-900" href="/">
             <img className="w-10 h-8" src={logo} alt="" />

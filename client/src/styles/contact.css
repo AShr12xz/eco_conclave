@@ -1,0 +1,18 @@
+/* add media query  */
+
+@media (min-width: 700px) and (max-width: 1000px) {
+  .custom {
+    margin-left: 10% !important;
+    width: 600px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+  }
+  .custom2{
+    margin-top: 20px;
+    width: 600px !important;
+    margin-left: 15%;
+  }
+}
