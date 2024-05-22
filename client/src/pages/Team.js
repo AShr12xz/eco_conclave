@@ -1,21 +1,33 @@
 import React from 'react'
-import {motion} from 'framer-motion'
+import { motion } from 'framer-motion'
+import ankit from './../assets/IMAGES/Ankit.jpg'
+import ashish from './../assets/IMAGES/Ashish.jpg'
+import adarsh from './../assets/IMAGES/Adarsh.jpg'
+import sumit from './../assets/IMAGES/Sumit.jpg'
+import poonam from './../assets/IMAGES/Poonam.jpg'
+import shreyansh from './../assets/IMAGES/shreyansh.jpg'
+import priyanshu from './../assets/IMAGES/Priyanshu.jpg'
+import aditya from './../assets/IMAGES/Aditya.jpg'
+import aryush from './../assets/IMAGES/Aryush.jpg'
+
+
+
 
 function Team() {
 
     const variant = {
-        entry : {
-            opacity: [0,1], 
-            transition:{
-                duration:0.125,
-                times:[0,1],
+        entry: {
+            opacity: [0, 1],
+            transition: {
+                duration: 0.125,
+                times: [0, 1],
             }
         },
-        exit : {
-            opacity: [1,0], 
-            transition:{
-                duration:0.125,
-                times:[0,1],
+        exit: {
+            opacity: [1, 0],
+            transition: {
+                duration: 0.125,
+                times: [0, 1],
             }
         },
     }
@@ -32,121 +44,124 @@ function Team() {
                     </div>
 
                     <div class="grid grid-cols-2 md:grid-cols-3 gap-8 md:gap-32">
+
                         <div class="text-center">
-                            <img class="rounded-xl sm:size-48 lg:size-60 mx-auto" src="https://images.unsplash.com/photo-1568602471122-7832951cc4c5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=900&h=900&q=80" alt="Description" />
+                            <img class="rounded-xl sm:size-48 lg:size-60 mx-auto" src={aryush} alt="Description" />
                             <div class="mt-2 sm:mt-4">
                                 <h3 class="text-sm font-medium text-gray-800 sm:text-base lg:text-lg dark:text-neutral-200">
-
+                                    Aryush Tripathi
                                 </h3>
                                 <p class="text-xs text-gray-600 sm:text-sm lg:text-base dark:text-neutral-400">
-                                    Founder / CEO
+                                    FEBS Secretary
                                 </p>
                             </div>
                         </div>
 
 
                         <div class="text-center">
-                            <img class="rounded-xl sm:size-48 lg:size-60 mx-auto" src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=900&h=900&q=80" alt="Description" />
+                            <img class="rounded-xl sm:size-48 lg:size-60 mx-auto" src={ankit} alt="Description" />
                             <div class="mt-2 sm:mt-4">
                                 <h3 class="text-sm font-medium text-gray-800 sm:text-base lg:text-lg dark:text-neutral-200">
-                                    Amil Evara
+                                    Ankit Singh
                                 </h3>
                                 <p class="text-xs text-gray-600 sm:text-sm lg:text-base dark:text-neutral-400">
-                                    UI/UX Designer
+                                    Convenor
                                 </p>
                             </div>
                         </div>
 
 
                         <div class="text-center">
-                            <img class="rounded-xl sm:size-48 lg:size-60 mx-auto" src="https://images.unsplash.com/photo-1548142813-c348350df52b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=900&h=900&q=80" alt="Description" />
+                            <img class="rounded-xl sm:size-48 lg:size-60 mx-auto" src={ashish} alt="Description" />
                             <div class="mt-2 sm:mt-4">
                                 <h3 class="text-sm font-medium text-gray-800 sm:text-base lg:text-lg dark:text-neutral-200">
-                                    Ebele Egbuna
+                                    Ashish Kumar Singh
                                 </h3>
                                 <p class="text-xs text-gray-600 sm:text-sm lg:text-base dark:text-neutral-400">
-                                    Support Consultant
+                                    Digital and Technology Coordinator
                                 </p>
                             </div>
                         </div>
 
 
                         <div class="text-center">
-                            <img class="rounded-xl sm:size-48 lg:size-60 mx-auto" src="https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=900&h=900&q=80" alt="Description" />
+                            <img class="rounded-xl sm:size-48 lg:size-60 mx-auto" src={poonam} alt="Description" />
                             <div class="mt-2 sm:mt-4">
                                 <h3 class="text-sm font-medium text-gray-800 sm:text-base lg:text-lg dark:text-neutral-200">
-                                    Maria Powers
+                                    Poonam Kiran Patil
                                 </h3>
                                 <p class="text-xs text-gray-600 sm:text-sm lg:text-base dark:text-neutral-400">
-                                    Director of sales
+                                    Events and Competition Manager (Online)
                                 </p>
                             </div>
                         </div>
 
 
                         <div class="text-center">
-                            <img class="rounded-xl sm:size-48 lg:size-60 mx-auto" src="https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=900&h=900&q=80" alt="Description" />
+                            <img class="rounded-xl sm:size-48 lg:size-60 mx-auto" src={aditya} alt="Description" />
                             <div class="mt-2 sm:mt-4">
                                 <h3 class="text-sm font-medium text-gray-800 sm:text-base lg:text-lg dark:text-neutral-200">
-                                    Delia Pawelke
+                                    Aditya Kumar Giri
                                 </h3>
                                 <p class="text-xs text-gray-600 sm:text-sm lg:text-base dark:text-neutral-400">
-                                    Front-end Developer
+                                    Events and Competition Manager (Offline)
                                 </p>
                             </div>
                         </div>
 
 
                         <div class="text-center">
-                            <img class="rounded-xl sm:size-48 lg:size-60 mx-auto" src="https://images.unsplash.com/photo-1624224971170-2f84fed5eb5e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=900&h=900&q=80" alt="Description" />
+                            <img class="rounded-xl sm:size-48 lg:size-60 mx-auto" src={shreyansh} alt="Description" />
                             <div class="mt-2 sm:mt-4">
                                 <h3 class="text-sm font-medium text-gray-800 sm:text-base lg:text-lg dark:text-neutral-200">
-                                    Tom Lowry
+                                    Shreyansh Chaudhary
                                 </h3>
                                 <p class="text-xs text-gray-600 sm:text-sm lg:text-base dark:text-neutral-400">
-                                    UI/UX Designer
+                                    Volunteer Coordinator
                                 </p>
                             </div>
                         </div>
 
 
                         <div class="text-center">
-                            <img class="rounded-xl sm:size-48 lg:size-60 mx-auto" src="https://images.unsplash.com/photo-1579017331263-ef82f0bbc748?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=900&h=900&q=80" alt="Description" />
+                            <img class="rounded-xl sm:size-48 lg:size-60 mx-auto" src={priyanshu} alt="Description" />
                             <div class="mt-2 sm:mt-4">
                                 <h3 class="text-sm font-medium text-gray-800 sm:text-base lg:text-lg dark:text-neutral-200">
-                                    Louise Donadieu
+                                    Priyanshu Gupta
                                 </h3>
                                 <p class="text-xs text-gray-600 sm:text-sm lg:text-base dark:text-neutral-400">
-                                    Support Consultant
+                                    Finance and Sponsorship Manager
                                 </p>
                             </div>
                         </div>
 
 
                         <div class="text-center">
-                            <img class="rounded-xl sm:size-48 lg:size-60 mx-auto" src="https://images.unsplash.com/photo-1514222709107-a180c68d72b4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=900&h=900&q=80" alt="Description" />
+                            <img class="rounded-xl sm:size-48 lg:size-60 mx-auto" src={adarsh} alt="Description" />
                             <div class="mt-2 sm:mt-4">
                                 <h3 class="text-sm font-medium text-gray-800 sm:text-base lg:text-lg dark:text-neutral-200">
-                                    Jeff Fisher
+                                    Adarsh Raj
                                 </h3>
                                 <p class="text-xs text-gray-600 sm:text-sm lg:text-base dark:text-neutral-400">
-                                    Project Manager
+                                    Finance and Sponsorship Manager
                                 </p>
                             </div>
                         </div>
 
 
                         <div class="text-center">
-                            <img class="rounded-xl sm:size-48 lg:size-60 mx-auto" src="https://images.unsplash.com/photo-1602452920335-6a132309c7c8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=900&h=900&q=80" alt="Description" />
+                            <img class="rounded-xl sm:size-48 lg:size-60 mx-auto" src={sumit} alt="Description" />
                             <div class="mt-2 sm:mt-4">
                                 <h3 class="text-sm font-medium text-gray-800 sm:text-base lg:text-lg dark:text-neutral-200">
-                                    Sophia Harrington
+                                    Sumit Chaudhary
                                 </h3>
                                 <p class="text-xs text-gray-600 sm:text-sm lg:text-base dark:text-neutral-400">
-                                    Project Manager
+                                    Design and Creative Lead
                                 </p>
                             </div>
                         </div>
+
+
 
                     </div>
 
