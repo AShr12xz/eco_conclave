@@ -17,7 +17,7 @@ function Footer() {
             © 2024 Economics Conclave — All Rights Reserved
           </div>
 
-          <div className="gap-3 lg:ml-auto flex md:mt-2 lg:mt-0 justify-center text-white items-center sm:justify-end sm:text-2xl text-sm pt-3 pt-md-0">
+          <div className="gap-3 lg:ml-auto flex md:mt-2 lg:mt-0 justify-center text-gray-400 items-center sm:justify-end sm:text-2xl text-sm pt-3 pt-md-0">
             <a href="https://www.instagram.com/arthamanthan.iitbbs/" target="#">
               <FaInstagram />
             </a>

@@ -5,6 +5,7 @@ import Navbar from './components/Navbar';
 import Home from './pages/Home';
 import Contact from './pages/Contact';
 import Footer from './components/Footer';
+import Team from './pages/Team';
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function Routefunction() {
         <Route path="/home" element={<Home />} />
         <Route path="/" element={<Home />} />
         <Route path='/contact' element={<Contact />} />
+        <Route path='/team' element={<Team />} />
       </Routes>
     
     </AnimatePresence>

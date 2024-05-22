@@ -17,7 +17,7 @@ export default function ContactForm() {
     },[state]);
 
   return (
-    <div>
+    <div className="xl:ml-20">
       <form
         id="form"
         className="max-w-lg custom2 max-[1000px]:mt-4 lg:ml-6 mx-auto p-8 bg-white dark:bg-gray-800 shadow-lg rounded-lg"
