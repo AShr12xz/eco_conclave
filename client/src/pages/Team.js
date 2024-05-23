@@ -8,6 +8,7 @@ import poonam from './../assets/IMAGES/Poonam.jpg'
 import shreyansh from './../assets/IMAGES/shreyansh.jpg'
 import priyanshu from './../assets/IMAGES/Priyanshu.jpg'
 import aditya from './../assets/IMAGES/Aditya.jpg'
+import annem from './../assets/IMAGES/Annem.jpg'
 import aryush from './../assets/IMAGES/Aryush.jpg'
 import shrey from './../assets/IMAGES/Shrey.jpg'
 import maanya from './../assets/IMAGES/Maanya.jpg'
@@ -135,6 +136,18 @@ function Team() {
                                 </h3>
                                 <p class="text-xs text-gray-600 sm:text-sm lg:text-base dark:text-neutral-400">
                                     Marketing and Publicity Manager
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="text-center">
+                            <img class="rounded-xl sm:size-48 lg:size-60 mx-auto" src={annem} alt="Description" />
+                            <div class="mt-2 sm:mt-4">
+                                <h3 class="text-sm font-medium text-gray-800 sm:text-base lg:text-lg dark:text-neutral-200">
+                                    Sidhartha Annem
+                                </h3>
+                                <p class="text-xs text-gray-600 sm:text-sm lg:text-base dark:text-neutral-400">
+                                    Media Head
                                 </p>
                             </div>
                         </div>
