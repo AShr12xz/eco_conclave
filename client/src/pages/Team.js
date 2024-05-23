@@ -11,6 +11,9 @@ import aditya from './../assets/IMAGES/Aditya.jpg'
 import aryush from './../assets/IMAGES/Aryush.jpg'
 import shrey from './../assets/IMAGES/Shrey.jpg'
 import maanya from './../assets/IMAGES/Maanya.jpg'
+import anubhav from './../assets/IMAGES/Anubhav.jpg'
+import mokshya from './../assets/IMAGES/Mokshya.jpg'
+
 
 
 
@@ -36,7 +39,7 @@ function Team() {
 
     return (
         <motion.div variants={variant} animate='entry' exit='exit' className='flex flex-col items-center justify-center'>
-            <div>
+            <div className='min-h-screen'>
 
                 <div class="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
 
@@ -110,6 +113,7 @@ function Team() {
                             </div>
                         </div>
 
+            
 
                         <div class="text-center">
                             <img class="rounded-xl sm:size-48 lg:size-60 mx-auto" src={aditya} alt="Description" />
@@ -119,6 +123,30 @@ function Team() {
                                 </h3>
                                 <p class="text-xs text-gray-600 sm:text-sm lg:text-base dark:text-neutral-400">
                                     Events and Competition Manager (Offline)
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="text-center">
+                            <img class="rounded-xl sm:size-48 lg:size-60 mx-auto" src={anubhav} alt="Description" />
+                            <div class="mt-2 sm:mt-4">
+                                <h3 class="text-sm font-medium text-gray-800 sm:text-base lg:text-lg dark:text-neutral-200">
+                                    Anubhav Mishra
+                                </h3>
+                                <p class="text-xs text-gray-600 sm:text-sm lg:text-base dark:text-neutral-400">
+                                    Marketing and Publicity Manager
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="text-center">
+                            <img class="rounded-xl sm:size-48 lg:size-60 mx-auto" src={mokshya} alt="Description" />
+                            <div class="mt-2 sm:mt-4">
+                                <h3 class="text-sm font-medium text-gray-800 sm:text-base lg:text-lg dark:text-neutral-200">
+                                    Mokshya Sahu
+                                </h3>
+                                <p class="text-xs text-gray-600 sm:text-sm lg:text-base dark:text-neutral-400">
+                                    Operation Manager
                                 </p>
                             </div>
                         </div>

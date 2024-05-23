@@ -6,25 +6,32 @@ import './../styles/contact.css'
 
 export default function ContactForm() {
   const [state, handleSubmit] = useForm("xpzvnvdb");
-  // const [state, handleSubmit] = useForm("mleqvqzj");
-    useEffect(()=>{
-        if(state.succeeded) {
-        toast.success("Message sent successfully");
-        toast.clearWaitingQueue();
-        let form=document.getElementById("form");
-        form.reset();
-        }
-    },[state]);
+
+  useEffect(() => {
+    if (state.succeeded) {
+      toast.success("Message sent successfully");
+      toast.clearWaitingQueue();
+      let form = document.getElementById("form");
+      form.reset();
+    }
+  }, [state]);
 
   return (
     <div className="xl:ml-20">
       <form
         id="form"
-        className="max-w-lg custom2 max-[1000px]:mt-4 lg:ml-6 mx-auto p-8 bg-white dark:bg-gray-800 shadow-lg rounded-lg"
+        className="max-w-lg custom2 max-[1000px]:mt-4 lg:ml-6 mx-auto p-8 shadow-lg rounded-lg"
+        style={{
+          background: 'linear-gradient(315deg, #4d4855 0%, #000000 65%)',
+          border: '4px solid #5d4d49',  // or any color that matches your design
+          borderRadius: '10px', // adjust border radius as needed
+        }}
         onSubmit={handleSubmit}
       >
-        <p className="leading-relaxed mb-6 text-gray-600 dark:text-gray-400">
-          Feel free to reach out to us with any questions or inquiries.
+
+
+        <p className="leading-relaxed mb-6 text-gray-600 dark:text-gray-400" style={{fontFamily:"Montserrat"}}>
+          Feel free to reach out to us with any questions or doubts.
         </p>
         <div className="mb-4">
           <label

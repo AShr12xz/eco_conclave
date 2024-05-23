@@ -26,15 +26,15 @@ function Contact() {
 }
   return (
     <motion.div variants={variant} animate='entry' exit='exit' className='flex flex-col items-center justify-center'>
-      <div className=' min-h-full relative'>
+      <div className=' min-h-screen relative'>
         <ToastContainer limit={1} />
         <div className="flex flex-col text-center w-full">
-          <h1 className="text-4xl mt-3 sm:text-3xl font-bold title-font text-orange-400 md:text-5xl">
+          <h1 className="text-4xl mt-6 sm:text-3xl font-bold title-font text-orange-400 md:text-5xl">
             Get in Touch !!
           </h1>
         </div>
         <section className="body-font relative " id="contact">
-          <div className="container px-5 mt-6 pt-3 pb-10 mx-auto h-full flex max-[1000px]:flex-col sm:flex-nowrap flex-wrap">
+          <div className="container px-5 mt-6 lg:mt-8 lg:pt-8 pt-4 pb-10 mx-auto h-full flex max-[1000px]:flex-col sm:flex-nowrap flex-wrap">
             <div className="lg:w-1/2 custom custom2 md:w-1/2 bg-gray-600 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
 
               <iframe

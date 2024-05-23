@@ -22,7 +22,7 @@ const Navbar = () => {
 
     return (
         <>
-            <div className='flex justify-between items-center h-16 max-[1300px]:ml-6 min-[1400px]:my-2  max-w-[1240px] mx-auto px-4 text-white'>
+            <div className='flex pt-3 justify-between items-center h-16 max-[1300px]:ml-6 min-[1400px]:my-2  max-w-[1240px] mx-auto px-4 text-white'>
                 {/* Logo */}
                 <img className='h-14' src={logo} alt="Logo" />
 

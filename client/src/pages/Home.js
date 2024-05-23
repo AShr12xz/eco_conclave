@@ -23,7 +23,7 @@ function Home() {
   }
   return (
     <motion.div variants={variant} animate='entry' exit='exit' className='flex flex-col items-center justify-center'>
-      <div>
+      <div className='min-h-screen'>
         <Hero />
         <About />
       </div>
