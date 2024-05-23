@@ -20,7 +20,7 @@ function Hero() {
     
         <div className="mt-16 lg:mt-24 grid lg:gap-32 gap-8 text-center md:grid-cols-2 lg:grid-cols-2">
           <div className=" bg-gray-900 p-6 rounded-3xl">
-            <CountUp end={10} suffix='+' duration={1.25} className="text-5xl font-bold text-white" />
+            <CountUp end={10} suffix='+' duration={1.75} className="text-5xl font-bold text-white" />
             <p className="mt-2 text-lg text-gray-300">Events</p>
           </div>
           
